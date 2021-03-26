@@ -1,7 +1,7 @@
-import Jumbotron from "./components/jumbotron";
+import JumbotronContainer from "./containers/jumbotron";
 
 const App = () => {
-  return <Jumbotron />;
+  return <JumbotronContainer />;
 };
 
 export default App;

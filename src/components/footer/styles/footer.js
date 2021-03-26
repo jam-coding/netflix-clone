@@ -1,16 +1,5 @@
 import styled from "styled-components/macro";
 
-export const Break = styled.div`
-  flex-basis: 100%;
-  height: 0;
-`;
-
-export const Column = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-`;
-
 export const Container = styled.div`
   display: flex;
   padding: 70px 56px;
@@ -23,11 +12,10 @@ export const Container = styled.div`
   }
 `;
 
-export const Link = styled.a`
+export const Title = styled.p`
+  font-size: 16px;
+  margin-bottom: 40px;
   color: #757575;
-  margin-bottom: 20px;
-  font-size: 14px;
-  text-decoration: none;
 `;
 
 export const Row = styled.div`
@@ -40,14 +28,26 @@ export const Row = styled.div`
   }
 `;
 
-export const Text = styled.p`
-  font-size: 13px;
-  margin-bottom: 40px;
-  color: #757575;
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 `;
 
-export const Title = styled.p`
-  font-size: 16px;
+export const Link = styled.a`
+  color: #757575;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-decoration: none;
+`;
+
+export const Break = styled.div`
+  flex-basis: 100%;
+  height: 0;
+`;
+
+export const Text = styled.p`
+  font-size: 13px;
   margin-bottom: 40px;
   color: #757575;
 `;
